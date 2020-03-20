@@ -224,6 +224,18 @@ nav > a:hover {
 	align-items: center;
 }
 
+.section__first--right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.round-image {
+	width: 100%;
+	height: auto;
+}
+
 .main-heading {
 	font-size: 4.9rem;
 	text-align: center;
