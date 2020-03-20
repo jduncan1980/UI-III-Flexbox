@@ -221,7 +221,7 @@ nav > a:hover {
 .section__product {
 	display: flex;
 	justify-content: space-between;
-	margin-top: 120px;
+	margin-top: 100px;
 	width: 85%;
 	height: auto;
 }
@@ -293,5 +293,15 @@ footer > p {
 	h3,
 	nav > a {
 		font-size: 125%;
+	}
+
+	#text-2,
+	#text-4 {
+		order: 1;
+	}
+
+	#image-2,
+	#image-4 {
+		order: 2;
 	}
 }
