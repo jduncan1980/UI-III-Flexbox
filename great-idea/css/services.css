@@ -339,7 +339,8 @@ footer > p {
 
 	p,
 	address,
-	h3 {
+	h3,
+	nav > a {
 		font-size: 125%;
 	}
 }

@@ -188,18 +188,13 @@ header img {
 
 nav {
 	width: 60%;
-	/* margin-left: 45px; */
+	margin-left: 45px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
-nav ul {
-	width: 100%;
-	display: flex;
-	justify-content: space-evenly;
-}
 
-nav li a {
+nav > a {
 	font-size: 0.88rem;
 	text-decoration: none;
 	color: grey;
@@ -207,7 +202,7 @@ nav li a {
 	transition: all 1.5s;
 }
 
-nav li a:hover {
+nav > a:hover {
 	color: #1c40b8;
 	transform: scale(1.2);
 }
@@ -375,9 +370,11 @@ footer > p {
 	nav a {
 		margin-right: 20px;
 	}
+
 	p,
 	address,
-	h3 {
+	h3,
+	nav > a {
 		font-size: 125%;
 	}
 }
