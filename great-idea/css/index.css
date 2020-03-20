@@ -169,7 +169,6 @@ body {
 	width: 55vw;
 	display: flex;
 	flex-direction: column;
-	/* justify-content: center; */
 	align-items: center;
 }
 
@@ -189,13 +188,19 @@ header img {
 
 nav {
 	width: 60%;
-	margin-left: 45px;
+	/* margin-left: 45px; */
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+
+}
+nav ul {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
 }
 
-nav > a {
+nav li a {
 	font-size: 0.88rem;
 	text-decoration: none;
 	color: grey;
@@ -203,7 +208,7 @@ nav > a {
 	transition: all 1.5s;
 }
 
-nav > a:hover {
+nav li a:hover {
 	color: #1c40b8;
 	transform: scale(1.2);
 }
@@ -339,7 +344,7 @@ footer > p {
 
 @media screen and (max-width: 1400px) {
 	.container,
-	.header {
+	header {
 		width: 100vw;
 	}
 	nav {
@@ -364,9 +369,9 @@ footer > p {
 		width: 75%;
 		margin-top: 50px;
 	}
-	header {
+	/* header {
 		position: static;
-	}
+	} */
 	nav a {
 		margin-right: 20px;
 }
