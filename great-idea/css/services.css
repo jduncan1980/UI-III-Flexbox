@@ -219,6 +219,11 @@ nav > a:hover {
 }
 
 /* Services Section */
+
+.services-header-img {
+	margin-top: 100px;
+}
+
 .section__services {
 	width: 85%;
 	margin: 86px 0 40px 0;
@@ -342,5 +347,14 @@ footer > p {
 	h3,
 	nav > a {
 		font-size: 125%;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	nav {
+		flex-direction: column;
+	}
+	.services-header-img {
+		margin-top: 200px;
 	}
 }

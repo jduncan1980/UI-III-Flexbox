@@ -305,3 +305,12 @@ footer > p {
 		order: 2;
 	}
 }
+
+@media screen and (max-width: 750px) {
+	nav {
+		flex-direction: column;
+	}
+	.placeholder {
+		margin-top: 100px;
+	}
+}
