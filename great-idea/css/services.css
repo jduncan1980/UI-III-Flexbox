@@ -301,3 +301,36 @@ footer > p {
 	font-size: 0.9rem;
 	margin-top: 75px;
 }
+
+
+@media screen and (max-width: 1400px) {
+	.container,
+	.header {
+		width: 100vw;
+	}
+	nav {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1100px) {
+  .section__services,
+  .section__cards,
+  .section__facts {
+		flex-direction: column;
+		align-items: center;
+  }
+  .section__services {
+    margin-top: 20px;
+  }
+  .facts__left ul {
+	margin-bottom: 25px;
+}
+	.card {
+    width: 100%
+  }
+	header {
+		position: static;
+	}
+	nav a {
+		margin-right: 20px;
+}
